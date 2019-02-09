@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:src="@drawable/sunflower"
+        android:id="@+id/imvb1"
+        />
+
+        <TextView
+            android:id="@+id/tvb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="368dp"
+            android:background="#90000000"
+            android:gravity="center"
+            android:text="INI NAMA bunga"
+            android:textColor="@android:color/white"
+
+            />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
